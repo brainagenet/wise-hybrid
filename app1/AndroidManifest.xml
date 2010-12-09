@@ -21,6 +21,28 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".ui.BasicExample1Activity"
+            android:label="@string/label_basic_example1">
+            <intent-filter>
+                <action
+                    android:name="net.brainage.hybrid1.action.VIEW_BASIC_EXAMPLE1" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.BasicExample2Activity"
+            android:label="@string/label_basic_example2">
+            <intent-filter>
+                <action
+                    android:name="net.brainage.hybrid1.action.VIEW_BASIC_EXAMPLE2" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
     <uses-sdk

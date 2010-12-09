@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources>
-    <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">Hybrid App 1</string>
+    <string name="main_label">Hybrid App Example</string>
+    
+    <string name="label_basic_example1">Basic Example</string>
+    <string name="label_basic_example2">Inter-Native Example</string>
 </resources>

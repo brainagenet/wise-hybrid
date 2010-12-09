@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- meta name="viewport" content="width=device-width,initial-scale=0.25,user-scalable=yes" / -->
+    <title>:: Android Hybrid - inter-native communication ::</title>
+    <script type="text/javascript">
+    <!--
+        function sendMessageOnClick() {
+    	   var message = document.getElementById('textMessage').value;
+    	   alert(message);
+    	   window.android.setMessage(message);
+        }
+    
+        function setMessage(message) {
+        	document.getElementById('nativeMessage').innerHTML = message;
+        }
+    //-->
+    </script>
+</head>
+
+<body>
+
+<h2>Hybrid App (WEB+Native)</h2>
+<hr />
+<input type="text" id="textMessage" value="Hello, Hybrid (WEB)!!" />
+<input type="button" id="sendMessage" value="Send Message" onclick="sendMessageOnClick()" />
+
+<hr />
+Message From Native
+<p id="nativeMessage"></p>
+
+</body>
+
+</html>

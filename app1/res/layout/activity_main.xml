@@ -6,9 +6,29 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <WebView
-        android:id="@+id/web_view"
-        android:layout_height="match_parent"
+    <TextView
+        android:text="@string/main_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip" />
+
+    <Button
+        android:id="@+id/go_basic_example1"
+        android:text="@string/label_basic_example1"
+        android:onClick="onClickBasicExample1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <Button
+        android:id="@+id/go_basic_example2"
+        android:text="@string/label_basic_example2"
+        android:onClick="onClickBasicExample2"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent" />
 
 </LinearLayout>
